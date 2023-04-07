@@ -18,3 +18,16 @@ h1, .intro {
   .sad {
     border: 2px solid #cc0000;
   }
+  a {
+    text-decoration: none;
+    color: rgb(50, 135, 233);
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  p:first-letter {
+    font-size: 1.5em;
+    float: left;
+    margin-right: 5px;
+    font-weight: bold;
+  }
